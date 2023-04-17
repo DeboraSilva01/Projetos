@@ -1,0 +1,125 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+nav{
+    background-color: #9fd6d2;
+}
+footer{
+    background-color:#ffeb32 ;
+    height: 100px;
+}
+
+/* Menu de Navegação Inicial */
+.logoPrincipal{
+    display: flex;
+    justify-content:center;
+    color: #fc6b0a;
+    margin: 10px;
+
+}
+
+/* Main da Página Inicical */
+span{
+    font-size: 14px;
+    margin: 10px;
+    
+}
+
+ul, li{
+    font-size: 14px;
+    margin: 3px;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin: 10px;
+    color: lightslategray;
+}
+
+/* Menu de Navegaçao do Cadastro*/
+
+
+.imgLogo{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-right: 2px solid red;
+    border-bottom: 3px solid red;
+    border-top: 2px solid red;
+    border-radius: 0px 30px 30px 0px;
+    margin: 5px 5px 5px none;
+    padding-right: 10px;
+    width: 30px;
+    overflow: hidden;
+  
+}
+
+.imgLogo:hover{
+    justify-content: end;
+    width: 150px;
+    border-radius: 50px;
+    
+}
+.iconescentro{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+/* O Main do Cadastro */
+.spancentro{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+
+}
+.mainborda{
+    border: 1px solid gray;
+    border-color: blue;
+    padding: 20px;
+    background-color:#efedeb;
+}
+.espaco{
+    margin: 2PX;
+    padding: 2px;
+
+}
+label{
+    margin: 2PX;
+    padding: 2px;
+    font-size: 16PX;
+}
+input, select {
+    margin: 1PX;
+    padding: 2px;
+    font-size: 16PX;
+    background-color: #fdf57e;
+
+}
+
+.mover:hover{
+    zoom: 1.1;
+    background-color: antiquewhite;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 14px;
+    
+}
+button:hover{
+    background-color: transparent;
+    border-radius: 0px 7px 0px 7px;
+    zoom: 1.1;
+
+}
+
+
+
+
+    
